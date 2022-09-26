@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string nadep = "Fadil";
+  string nateng = "Jaya";
+  string nabel  = "Pratama";
+
+   cout << "Nama depan: " << nadep << endl;
+   cout << "Nama tengah: " << nateng << endl;
+   cout << "Nama belakang: " << nabel << endl;
+  cout << "Nama Lengkap   : " << nadep << (' ') << nateng << (' ') << nabel << endl << endl;
+
+
+ string tgl = "20";
+ string bln = "November";
+ string thn = "2001";
+
+  cout << "Tanggal: " <<tgl << endl;
+  cout << "Bulan lahir: " <<bln << endl;
+  cout << "Tahun lahir: " << thn <<endl;
+  cout << "Tanggal Lahir : " << tgl << " "<< bln<< "  " << thn << endl << endl;
+  
+
+ string jln = "Komplek sanggar mas Lestari blok E No.60";
+ string rt  = "05";
+ string rw  = "12";
+ string lurah = "Tarajusari";
+ string camat = "Banjaran";
+ string kota = "Bandung";
+ string prov = "Jawa Barat";
+
+  cout <<"Jalan: " <<jln << endl;
+  cout <<"Rt: " <<rt << endl;
+  cout <<"Rw: " <<rw << endl;
+  cout <<"Lurah: " <<lurah << endl;
+  cout <<"Camat: " <<camat << endl;
+  cout <<"Kota: " <<kota << endl;
+  cout <<"Prov: " <<prov << endl;
+  cout << "Alamat Lengkap  : " << jln << " " << rt << " " << rw << " " << lurah << " " << " " << camat << " " << kota << " " << prov << endl << endl;
+
+  // saudara
+  string anak = "1";
+  string saudara = "2";
+  cout << "Anak ke-       : " << anak << endl;
+  cout << "Jumlah Saudara : " << saudara << endl;
+  cout << endl;
+  cout << "anak ke-       : " << anak << " " << "dari" << " " << saudara << " " << "saudara" << endl;
+  
+  // garis 
+    string garis3 = "-----------------------------------------------------";
+  cout << "" << garis3 << endl;
+  } 
